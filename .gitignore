@@ -1,0 +1,65 @@
+# =========================
+# Python / Virtual Env
+# =========================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Data & Models
+# =========================
+data/raw/
+data/processed/
+data/embeddings/
+models/
+checkpoints/
+*.pt
+*.bin
+*.pkl
+
+# =========================
+# Logs & Cache
+# =========================
+logs/
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Build / Misc
+# =========================
+dist/
+build/
+*.egg-info/
+
+# =========================
+# Python version managers
+# =========================
+.python-version
